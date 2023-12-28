@@ -3,7 +3,7 @@ import FacebookProvider from "next-auth/providers/facebook";
 
 export const authOptions = {
   // Configure one or more authentication providers
-  site: process.env.NEXT_PUBLIC_SITE ?? "http://localhost:3000",
+  // site: process.env.NEXT_PUBLIC_SITE ?? "http://localhost:3000",
   providers: [
     FacebookProvider({
       clientId: process.env.FACEBOOK_CLIENT_ID,
