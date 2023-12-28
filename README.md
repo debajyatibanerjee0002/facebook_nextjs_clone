@@ -1,6 +1,6 @@
 # NextJS Facebook Clone
 
-## Live demo -> [ under Process ]
+## Live demo -> [ Under Process ]
 
 ![Facebook-Nextjs-Clone](https://i.ibb.co/z6L1C8P/facebook.png)
 
@@ -17,13 +17,12 @@ Using Next.js, TailwindCSS aad FireStore + Firebase Storage I've develope this F
 ## APP SECRET -> https://developers.facebook.com/
 
 ## .env
+FACEBOOK_CLIENT_ID=**\*\*** <br />
+FACEBOOK_CLIENT_SECRET=**\*\*** <br />
+NEXTAUTH_URL=http://localhost:3000 <br />
+NEXT_PUBLIC_SECRET=your_any_secret_key <br />
 
-FACEBOOK_CLIENT_ID=**\*\***
-FACEBOOK_CLIENT_SECRET=**\*\***
-NEXTAUTH_URL=http://localhost:3000
-NEXT_PUBLIC_SECRET=your_any_secret_key
-
-FIREBASE_APP_KEY=**\*\***
-FIREBASE_AUTH_DOMAIN=**\*\***
-FIREBASE_MESSAGE_SENDER_ID=**\*\***
-FIREBASE_APP_ID=**\*\***
+FIREBASE_APP_KEY=**\*\*** <br />
+FIREBASE_AUTH_DOMAIN=**\*\*** <br />
+FIREBASE_MESSAGE_SENDER_ID=**\*\*** <br />
+FIREBASE_APP_ID=**\*\*** <br />
