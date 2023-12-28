@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Using Next.js, TailwindCSS aad FireStore + Firebase Storage I've develope this Facebook web application.
+Using Next.js, TailwindCSS and FireStore + Firebase Storage I've develope this Facebook web application.
 
 # BUG from Facebook
 
@@ -17,10 +17,12 @@ Using Next.js, TailwindCSS aad FireStore + Firebase Storage I've develope this F
 ## APP SECRET -> https://developers.facebook.com/
 
 ## .env
+
 FACEBOOK_CLIENT_ID=**\*\*** <br />
 FACEBOOK_CLIENT_SECRET=**\*\*** <br />
 NEXTAUTH_URL=http://localhost:3000 <br />
 NEXT_PUBLIC_SECRET=your_any_secret_key <br />
+NEXT_PUBLIC_SITE=https://{my-preview-site}.vercel.app/{my-preview-site}.vercel.app/api/auth/signin <br />
 
 FIREBASE_APP_KEY=**\*\*** <br />
 FIREBASE_AUTH_DOMAIN=**\*\*** <br />
