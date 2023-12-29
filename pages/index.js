@@ -18,6 +18,7 @@ export default function Home({ session, posts }) {
     <div className="h-screen bg-gray-100 overflow-hidden">
       <Head>
         <title>Facebook 2.0</title>
+        <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
       </Head>
 
       {/* Header */}
